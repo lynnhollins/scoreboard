@@ -1,8 +1,39 @@
 body {
     margin: 0;
+    color: white;
+    text-align: center;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    background: #1B244A;
+    width: 575px;
+    height: 375px;
+    margin: auto;
+}
+#home-guest-title {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+}
+#home-el, #guest-el {
+    color: red;
+    height: 110px;
+    width: 155px;
+    background: black;
+    font-size: 90px;
+    margin: 20px;
+}
+button {
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+}
+#new-game {
+    margin-top: 150px;
+}
+#reset-el {
+    color: red;
+    font-size: 15px;
 }

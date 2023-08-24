@@ -9,19 +9,19 @@
 <body>
     <div class="container">
         <div>
-            <h3>HOME</h3>
+            <h3 id="home-guest-title">HOME</h3>
             <h4 id="home-el">0</h4>
             <button onclick="homeAdd1()">+1</button>
             <button onclick="homeAdd2()">+2</button>
             <button onclick="homeAdd3()">+3</button>
             <button onclick="homeReset()">RESET</button>
         </div>
-        <div>
-            <button onclick="resetScore()">NEW GAME</button>
+        <div id="new-game">
+            <button id="reset-el" onclick="resetScore()">NEW GAME</button>
         </div>
 
         <div>
-            <h3>AWAY</h3>
+            <h3 id="home-guest-title">AWAY</h3>
             <h4 id="guest-el">0</h4>
             <button onclick="guestAdd1()">+1</button>
             <button onclick="guestAdd2()">+2</button>
